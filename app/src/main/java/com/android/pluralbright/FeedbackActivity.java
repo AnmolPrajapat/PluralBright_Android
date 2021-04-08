@@ -22,6 +22,7 @@ public class FeedbackActivity extends AppCompatActivity {
             @Override
             public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
                         value.setText("value is: "+rating);
+//                        intet feedback class seperately
             }
         });
     }

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:orientation="vertical"
+    android:layout_margin="50sp">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnProfile"
+        android:text="Update your profile photo"
+        android:textSize="15sp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/bg1"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPrivacy"
+        android:text="Security and privacy"
+        android:textSize="15sp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/bg1"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnHistory"
+        android:text="History"
+        android:textSize="15sp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/bg1"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnStorage"
+        android:text="Check your storage consume by App"
+        android:textSize="15sp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/bg1"></Button>
+
+
+
+</LinearLayout>

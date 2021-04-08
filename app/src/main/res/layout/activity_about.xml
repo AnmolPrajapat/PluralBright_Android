@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_margin="30sp"
+        android:text="About :"></TextView>
+
+        <TextView
+            android:layout_width="275dp"
+            android:layout_height="176dp"
+            android:layout_margin="30sp"
+            android:layout_marginTop="50sp"
+            android:text="THIS APP IS USED FOR STUDY AND EDUCATION PURPOSE"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+
+</RelativeLayout>

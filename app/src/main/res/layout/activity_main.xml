@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/bg1">
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginTop="150sp"
+            android:src="@drawable/logp"
+            android:layout_marginLeft="140sp"></ImageView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userName"
+            android:layout_margin="10sp"
+            android:textSize="20sp"
+            android:hint="Username or Email"
+            android:textColor="@color/white"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_margin="10sp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:hint="Password"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cpassword"
+        android:layout_margin="10sp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:hint="Confirm Password"></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Create"
+        android:gravity="center"
+        android:text="Create"
+        android:layout_margin="40sp"></Button>
+
+
+
+
+</LinearLayout>

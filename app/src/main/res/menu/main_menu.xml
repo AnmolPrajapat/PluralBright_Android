@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/login"
+    android:orderInCategory="100"
+    android:title="Log In"></item>
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="About"></item>
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="100"
+        android:title="Settings"></item>
+    <item
+        android:id="@+id/Mail"
+        android:orderInCategory="100"
+        android:title="Do mail"></item>
+    <item
+        android:id="@+id/feedback"
+        android:orderInCategory="100"
+        android:title="Feedback"></item>
+</menu>

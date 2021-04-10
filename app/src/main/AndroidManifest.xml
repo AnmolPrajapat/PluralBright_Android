@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PluralBright">
-        <activity android:name=".FeedbackActivity"></activity>
+        <activity android:name=".pythonActivity"></activity>
+        <activity android:name=".javaActivity" />
+        <activity android:name=".CourseActivity" />
+        <activity android:name=".FeedbackActivity" />
         <activity android:name=".MailActivity" />
         <activity android:name=".SettingsActivity" />
         <activity android:name=".AboutActivity" />

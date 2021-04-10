@@ -69,10 +69,15 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent3 = new Intent(MainActivity.this,MailActivity.class);
                 startActivity(intent3);
                 break;
+            case R.id.course:
+                Intent intent5 = new Intent(MainActivity.this,CourseActivity.class);
+                startActivity(intent5);
+                break;
             case R.id.feedback:
                 Intent intent4 = new Intent(MainActivity.this,FeedbackActivity.class);
                 startActivity(intent4);
                 break;
+
 
         }
         return super.onOptionsItemSelected(item);

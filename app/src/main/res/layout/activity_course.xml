@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseActivity"
+    android:orientation="vertical"
+    android:layout_margin="30sp"
+    android:padding="20sp"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND YOUR COURSE HERE"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:background="@color/teal_200"
+        android:gravity="center"></TextView>
+
+    <Button
+        android:id="@+id/java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="java"></Button>
+    <Button
+        android:id="@+id/python"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="python"></Button>
+    <Button
+        android:id="@+id/cpp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="c++"></Button>
+    <Button
+        android:id="@+id/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="android app development"></Button>
+    <Button
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="web development"></Button>
+    <Button
+        android:id="@+id/react"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="react js"></Button>
+
+</LinearLayout>

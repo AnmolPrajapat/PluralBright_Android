@@ -17,7 +17,12 @@
         android:orderInCategory="100"
         android:title="Do mail"></item>
     <item
+        android:id="@+id/course"
+        android:orderInCategory="100"
+        android:title="Courses"></item>
+    <item
         android:id="@+id/feedback"
         android:orderInCategory="100"
         android:title="Feedback"></item>
+
 </menu>
